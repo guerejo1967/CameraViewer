@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Camera Viewer</string>
+    
+    <!-- Main Activity -->
+    <string name="add_site">Aggiungi Sito</string>
+    <string name="no_sites_message">Nessun sito configurato.\n\nTocca il pulsante + per aggiungere il tuo primo sito.</string>
+    <string name="camera_count">%d telecamere</string>
+    <string name="view_cameras">Visualizza Telecamere</string>
+    <string name="edit_site">Modifica Sito</string>
+    <string name="delete_site">Elimina Sito</string>
+    <string name="delete_site_title">Elimina Sito</string>
+    <string name="delete_site_message">Sei sicuro di voler eliminare il sito \"%s\" e tutte le sue telecamere?</string>
+    
+    <!-- Site Details -->
+    <string name="site_detail">Dettaglio Sito</string>
+    <string name="site_name">Nome Sito</string>
+    <string name="site_description">Descrizione</string>
+    <string name="site_name_required">Il nome del sito è obbligatorio</string>
+    <string name="site_added">Sito aggiunto con successo</string>
+    <string name="site_updated">Sito aggiornato con successo</string>
+    
+    <!-- Camera Management -->
+    <string name="add_camera">Aggiungi Telecamera</string>
+    <string name="edit_camera">Modifica Telecamera</string>
+    <string name="delete_camera">Elimina Telecamera</string>
+    <string name="delete_camera_title">Elimina Telecamera</string>
+    <string name="delete_camera_message">Sei sicuro di voler eliminare la telecamera \"%s\"?</string>
+    <string name="camera_name">Nome Telecamera</string>
+    <string name="rtsp_url">URL RTSP</string>
+    <string name="rtsp_url_example">Esempio: rtsp://192.168.1.100:554/stream</string>
+    <string name="username_optional">Username (opzionale)</string>
+    <string name="password_optional">Password (opzionale)</string>
+    <string name="camera_name_required">Il nome della telecamera è obbligatorio</string>
+    <string name="rtsp_url_required">L\'URL RTSP è obbligatorio</string>
+    <string name="invalid_rtsp_url">L\'URL deve iniziare con rtsp://</string>
+    <string name="camera_added">Telecamera aggiunta con successo</string>
+    <string name="camera_updated">Telecamera aggiornata con successo</string>
+    <string name="no_cameras_in_site">Nessuna telecamera in questo sito.\n\nTocca il pulsante + per aggiungere una telecamera.</string>
+    <string name="no_cameras_title">Nessuna Telecamera</string>
+    <string name="no_cameras_message">Aggiungi prima delle telecamere a questo sito per poterle visualizzare.</string>
+    
+    <!-- Camera Grid -->
+    <string name="camera_grid">Griglia Telecamere</string>
+    <string name="back">Indietro</string>
+    <string name="change_grid_size">Cambia Layout Griglia</string>
+    <string name="select_grid_size">Seleziona Layout Griglia</string>
+    <string name="connection_error">Errore di connessione</string>
+    
+    <!-- Import/Export -->
+    <string name="export_config">Esporta Configurazione</string>
+    <string name="import_config">Importa Configurazione</string>
+    <string name="export_as_text">Condividi come Testo</string>
+    <string name="import_config_title">Importa Configurazione</string>
+    <string name="import_config_warning">L\'importazione può sostituire o unire i dati esistenti. Assicurati di aver esportato la configurazione attuale se vuoi conservarla.</string>
+    <string name="no_data_to_export">Nessun dato da esportare</string>
+    <string name="import_preview">Trovati %d siti con %d telecamere totali.\n\nCosa vuoi fare?</string>
+    <string name="confirm_import">Conferma Importazione</string>
+    <string name="replace_all">Sostituisci Tutto</string>
+    <string name="merge">Unisci</string>
+    <string name="import_success">Configurazione importata con successo</string>
+    <string name="share_config">Condividi Configurazione</string>
+    <string name="proceed">Procedi</string>
+    
+    <!-- Common -->
+    <string name="save">Salva</string>
+    <string name="cancel">Annulla</string>
+    <string name="delete">Elimina</string>
+    <string name="ok">OK</string>
+</resources>

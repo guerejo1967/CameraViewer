@@ -1,0 +1,107 @@
+{
+  "version": 1,
+  "exportDate": "2026-02-07 15:30:00",
+  "sites": [
+    {
+      "id": 1,
+      "name": "Sede Principale",
+      "description": "Telecamere dell'ufficio centrale - Piano terra e primo piano",
+      "cameras": [
+        {
+          "id": 1,
+          "siteId": 1,
+          "name": "Ingresso Principale",
+          "rtspUrl": "rtsp://192.168.1.100:554/stream1",
+          "username": "admin",
+          "password": "camera123"
+        },
+        {
+          "id": 2,
+          "siteId": 1,
+          "name": "Reception",
+          "rtspUrl": "rtsp://192.168.1.101:554/stream1",
+          "username": "admin",
+          "password": "camera123"
+        },
+        {
+          "id": 3,
+          "siteId": 1,
+          "name": "Sala Riunioni",
+          "rtspUrl": "rtsp://192.168.1.102:554/stream1",
+          "username": "admin",
+          "password": "camera123"
+        },
+        {
+          "id": 4,
+          "siteId": 1,
+          "name": "Corridoio Piano 1",
+          "rtspUrl": "rtsp://192.168.1.103:554/stream1",
+          "username": "admin",
+          "password": "camera123"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Magazzino",
+      "description": "Telecamere area magazzino e carico/scarico merci",
+      "cameras": [
+        {
+          "id": 5,
+          "siteId": 2,
+          "name": "Ingresso Magazzino",
+          "rtspUrl": "rtsp://192.168.2.100:554/stream1",
+          "username": "admin",
+          "password": "warehouse456"
+        },
+        {
+          "id": 6,
+          "siteId": 2,
+          "name": "Area Stoccaggio",
+          "rtspUrl": "rtsp://192.168.2.101:554/stream1",
+          "username": "admin",
+          "password": "warehouse456"
+        },
+        {
+          "id": 7,
+          "siteId": 2,
+          "name": "Banchina Carico",
+          "rtspUrl": "rtsp://192.168.2.102:554/stream1",
+          "username": "admin",
+          "password": "warehouse456"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Parcheggio",
+      "description": "Telecamere area parcheggio dipendenti e visitatori",
+      "cameras": [
+        {
+          "id": 8,
+          "siteId": 3,
+          "name": "Ingresso Parcheggio",
+          "rtspUrl": "rtsp://192.168.3.100:554/stream1",
+          "username": "",
+          "password": ""
+        },
+        {
+          "id": 9,
+          "siteId": 3,
+          "name": "Area Nord",
+          "rtspUrl": "rtsp://192.168.3.101:554/stream1",
+          "username": "",
+          "password": ""
+        },
+        {
+          "id": 10,
+          "siteId": 3,
+          "name": "Area Sud",
+          "rtspUrl": "rtsp://192.168.3.102:554/stream1",
+          "username": "",
+          "password": ""
+        }
+      ]
+    }
+  ]
+}
